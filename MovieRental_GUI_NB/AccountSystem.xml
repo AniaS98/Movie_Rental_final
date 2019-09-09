@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.2" class="java.beans.XMLDecoder">
+ <object class="movierental_netbeans.AccountSystem" id="AccountSystem0"/>
+<void class="movierental_netbeans.Movie" id="Field0" method="getField">
+ <string>rentalDate</string>
+ <void id="GregorianCalendar0" method="get">
+  <object class="movierental_netbeans.Movie" id="Movie0">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>genre</string>
+    <void method="set">
+     <object idref="Movie0"/>
+     <object class="java.lang.Enum" method="valueOf">
+      <class>movierental_netbeans.Genres</class>
+      <string>Drama</string>
+     </object>
+    </void>
+   </void>
+   <void property="description">
+    <string>Adaptacja opowiadania Stephena Kinga. Niesłusznie skazany na dożywocie bankier, stara się przetrwać w brutalnym, więziennym świecie.</string>
+   </void>
+   <void property="director">
+    <string>Frank Darabont</string>
+   </void>
+   <void property="releaseYear">
+    <string>1994</string>
+   </void>
+   <void property="title">
+    <string>Skazani na Shawshank</string>
+   </void>
+  </object>
+  <void property="time">
+   <object class="java.util.Date">
+    <long>1567357250607</long>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="GregorianCalendar0"/>
+<void class="movierental_netbeans.Movie" id="Field1" method="getField">
+ <string>returnDate</string>
+ <void id="GregorianCalendar1" method="get">
+  <object class="movierental_netbeans.Movie" id="Movie1">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>genre</string>
+    <void method="set">
+     <object idref="Movie1"/>
+     <object class="java.lang.Enum" method="valueOf">
+      <class>movierental_netbeans.Genres</class>
+      <string>Thriller</string>
+     </object>
+    </void>
+   </void>
+   <void property="description">
+    <string>Dwóch mężczyzn znudzonych rutyną zakłada klub, w którym co tydzień odbywają się walki na gołe pięści.</string>
+   </void>
+   <void property="director">
+    <string>David Fincher</string>
+   </void>
+   <void property="releaseYear">
+    <string>1999</string>
+   </void>
+   <void property="title">
+    <string>Podziemy krąg</string>
+   </void>
+  </object>
+  <void property="time">
+   <object class="java.util.Date">
+    <long>1569949248303</long>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="GregorianCalendar1"/>
+<void class="movierental_netbeans.AccountSystem" id="Field2" method="getField">
+ <string>AccountsList</string>
+ <void id="ArrayList0" method="get">
+  <object idref="AccountSystem0"/>
+  <void method="add">
+   <object class="movierental_netbeans.Client" id="Client0">
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>login</string>
+     <void method="set">
+      <object idref="Client0"/>
+      <string>Anna</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="Client0"/>
+      <string>Asd1</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>repeatPassword</string>
+     <void method="set">
+      <object idref="Client0"/>
+      <string>Asd1</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>rentalMoviesList</string>
+     <void method="set">
+      <object idref="Client0"/>
+      <object class="java.util.ArrayList"/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Client0"/>
+      <string>Anna</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>surname</string>
+     <void method="set">
+      <object idref="Client0"/>
+      <string>Szmit</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>telNumber</string>
+     <void method="set">
+      <object idref="Client0"/>
+      <string>123456789</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>mail</string>
+     <void method="set">
+      <object idref="Client0"/>
+      <string>ankaszmit1414@gmail.com</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="movierental_netbeans.Client" id="Client1">
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>login</string>
+     <void method="set">
+      <object idref="Client1"/>
+      <string>Joanna</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="Client1"/>
+      <string>Qwe1</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>repeatPassword</string>
+     <void method="set">
+      <object idref="Client1"/>
+      <string>Qwe1</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>rentalMoviesList</string>
+     <void method="set">
+      <object idref="Client1"/>
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object idref="Movie1"/>
+       </void>
+       <void method="add">
+        <object idref="Movie0"/>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Client1"/>
+      <string>Joanna</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>surname</string>
+     <void method="set">
+      <object idref="Client1"/>
+      <string>Dark</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>telNumber</string>
+     <void method="set">
+      <object idref="Client1"/>
+      <string>987654321</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>mail</string>
+     <void method="set">
+      <object idref="Client1"/>
+      <string>joanna@wp.pl</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="movierental_netbeans.Client" id="Client2">
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>login</string>
+     <void method="set">
+      <object idref="Client2"/>
+      <string>asd</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="Client2"/>
+      <string>Zxc1</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>repeatPassword</string>
+     <void method="set">
+      <object idref="Client2"/>
+      <string>Zxc1</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Client" method="getField">
+     <string>rentalMoviesList</string>
+     <void method="set">
+      <object idref="Client2"/>
+      <object class="java.util.ArrayList"/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Client2"/>
+      <string>ASD</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>surname</string>
+     <void method="set">
+      <object idref="Client2"/>
+      <string>ASD</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>telNumber</string>
+     <void method="set">
+      <object idref="Client2"/>
+      <string>123789456</string>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Person" method="getField">
+     <string>mail</string>
+     <void method="set">
+      <object idref="Client2"/>
+      <string>asd@wp.pl</string>
+     </void>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+<void class="movierental_netbeans.Movie" id="Field3" method="getField">
+ <string>returnDate</string>
+ <void id="GregorianCalendar2" method="get">
+  <object idref="Movie0"/>
+  <void property="time">
+   <object class="java.util.Date">
+    <long>1569949250607</long>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="GregorianCalendar2"/>
+<void class="movierental_netbeans.Movie" id="Field4" method="getField">
+ <string>rentalDate</string>
+ <void id="GregorianCalendar3" method="get">
+  <object idref="Movie1"/>
+  <void property="time">
+   <object class="java.util.Date">
+    <long>1567357248303</long>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="GregorianCalendar3"/>
+</java>

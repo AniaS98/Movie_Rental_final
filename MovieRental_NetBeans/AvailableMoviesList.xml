@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.2" class="java.beans.XMLDecoder">
+ <object class="movierental_netbeans.AvailableMoviesList" id="AvailableMoviesList0">
+  <void property="name">
+   <string>MovieList</string>
+  </void>
+ </object>
+<void class="movierental_netbeans.Movie" method="getField">
+ <string>genre</string>
+ <void method="set">
+  <object class="movierental_netbeans.Movie" id="Movie0">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>rentalDate</string>
+    <void method="set">
+     <object idref="Movie0"/>
+     <null/>
+    </void>
+   </void>
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>returnDate</string>
+    <void method="set">
+     <object idref="Movie0"/>
+     <null/>
+    </void>
+   </void>
+   <void property="description">
+    <string>Dwóch policjantów stara się złapać seryjnego mordercę wybierającego swoje ofiary wg specjalnego &quot;klucza&quot;.</string>
+   </void>
+   <void property="director">
+    <string>Dawid Fincher</string>
+   </void>
+   <void property="releaseYear">
+    <string>1995</string>
+   </void>
+   <void property="title">
+    <string>Siedem</string>
+   </void>
+  </object>
+  <object class="java.lang.Enum" id="Genres0" method="valueOf">
+   <class>movierental_netbeans.Genres</class>
+   <string>Thriller</string>
+  </object>
+ </void>
+</void>
+<void class="movierental_netbeans.Movie" method="getField">
+ <string>genre</string>
+ <void method="set">
+  <object class="movierental_netbeans.Movie" id="Movie1">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>rentalDate</string>
+    <void method="set">
+     <object idref="Movie1"/>
+     <null/>
+    </void>
+   </void>
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>returnDate</string>
+    <void method="set">
+     <object idref="Movie1"/>
+     <null/>
+    </void>
+   </void>
+   <void property="description">
+    <string>Czasy, gdy technologia pozwala na wchodzenie w świat snów. Złodziej Cobb ma za zadanie wszczepić myśl do śpiącego umysłu.</string>
+   </void>
+   <void property="director">
+    <string>Christopher Nolan</string>
+   </void>
+   <void property="releaseYear">
+    <string>2010</string>
+   </void>
+   <void property="title">
+    <string>Incepcja</string>
+   </void>
+  </object>
+  <object idref="Genres0"/>
+ </void>
+</void>
+<void class="movierental_netbeans.Movie" method="getField">
+ <string>genre</string>
+ <void method="set">
+  <object class="movierental_netbeans.Movie" id="Movie2">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>rentalDate</string>
+    <void method="set">
+     <object idref="Movie2"/>
+     <null/>
+    </void>
+   </void>
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>returnDate</string>
+    <void method="set">
+     <object idref="Movie2"/>
+     <null/>
+    </void>
+   </void>
+   <void property="description">
+    <string>Kilkunastoletni Henry i Tommy DeVito trafiają pod opiekę potężnego gangstera. Obaj szybko uczą się panujących w mafii reguł.</string>
+   </void>
+   <void property="director">
+    <string>Martin Scorsese</string>
+   </void>
+   <void property="releaseYear">
+    <string>1990</string>
+   </void>
+   <void property="title">
+    <string>Chłopcy z ferajny</string>
+   </void>
+  </object>
+  <object class="java.lang.Enum" id="Genres1" method="valueOf">
+   <class>movierental_netbeans.Genres</class>
+   <string>Gangster</string>
+  </object>
+ </void>
+</void>
+<void class="movierental_netbeans.Movie" method="getField">
+ <string>genre</string>
+ <void method="set">
+  <object class="movierental_netbeans.Movie" id="Movie3">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>rentalDate</string>
+    <void method="set">
+     <object idref="Movie3"/>
+     <null/>
+    </void>
+   </void>
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>returnDate</string>
+    <void method="set">
+     <object idref="Movie3"/>
+     <null/>
+    </void>
+   </void>
+   <void property="description">
+    <string>Historia złodzieja, szulera i chuligana, który, by uniknąć więzienia, udaje niepoczytalność. Trafia do szpitala dla umysłowo chorych, gdzie twardą ręką rządzi siostra Ratched.</string>
+   </void>
+   <void property="director">
+    <string>Milos Forman</string>
+   </void>
+   <void property="releaseYear">
+    <string>1975</string>
+   </void>
+   <void property="title">
+    <string>Lot nad kukułczym gniazdem </string>
+   </void>
+  </object>
+  <object class="java.lang.Enum" method="valueOf">
+   <class>movierental_netbeans.Genres</class>
+   <string>Psychological</string>
+  </object>
+ </void>
+</void>
+<void class="movierental_netbeans.Movie" method="getField">
+ <string>genre</string>
+ <void method="set">
+  <object class="movierental_netbeans.Movie" id="Movie4">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>rentalDate</string>
+    <void method="set">
+     <object idref="Movie4"/>
+     <null/>
+    </void>
+   </void>
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>returnDate</string>
+    <void method="set">
+     <object idref="Movie4"/>
+     <null/>
+    </void>
+   </void>
+   <void property="description">
+    <string>Sparaliżowany milioner zatrudnia do opieki młodego chłopaka z przedmieścia, który właśnie wyszedł z więzienia.</string>
+   </void>
+   <void property="director">
+    <string>Olivier Nakache, Eric Toledano</string>
+   </void>
+   <void property="releaseYear">
+    <string>2011</string>
+   </void>
+   <void property="title">
+    <string>Nietykalni</string>
+   </void>
+  </object>
+  <object class="java.lang.Enum" id="Genres2" method="valueOf">
+   <class>movierental_netbeans.Genres</class>
+   <string>Biographical</string>
+  </object>
+ </void>
+</void>
+<void class="movierental_netbeans.Movie" method="getField">
+ <string>genre</string>
+ <void method="set">
+  <object class="movierental_netbeans.Movie" id="Movie5">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>rentalDate</string>
+    <void method="set">
+     <object idref="Movie5"/>
+     <null/>
+    </void>
+   </void>
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>returnDate</string>
+    <void method="set">
+     <object idref="Movie5"/>
+     <null/>
+    </void>
+   </void>
+   <void property="description">
+    <string>Zamknięty w obozie koncentracyjnym wraz z synem Guido próbuje przekonać chłopca, że okrutna rzeczywistość jest jedynie formą zabawy dla dorosłych.</string>
+   </void>
+   <void property="director">
+    <string>Roberto Beningi</string>
+   </void>
+   <void property="releaseYear">
+    <string>1997</string>
+   </void>
+   <void property="title">
+    <string>Życie jest piękne</string>
+   </void>
+  </object>
+  <object class="java.lang.Enum" id="Genres3" method="valueOf">
+   <class>movierental_netbeans.Genres</class>
+   <string>Drama</string>
+  </object>
+ </void>
+</void>
+<void class="movierental_netbeans.Movie" method="getField">
+ <string>genre</string>
+ <void method="set">
+  <object class="movierental_netbeans.Movie" id="Movie6">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>rentalDate</string>
+    <void method="set">
+     <object idref="Movie6"/>
+     <null/>
+    </void>
+   </void>
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>returnDate</string>
+    <void method="set">
+     <object idref="Movie6"/>
+     <null/>
+    </void>
+   </void>
+   <void property="description">
+    <string>Emerytowany strażnik więzienny opowiada przyjaciółce o niezwykłym mężczyźnie, którego skazano na śmierć za zabójstwo dwóch 9-letnich dziewczynek.</string>
+   </void>
+   <void property="director">
+    <string>Frank Darabont</string>
+   </void>
+   <void property="releaseYear">
+    <string>1999</string>
+   </void>
+   <void property="title">
+    <string>Zielona mila</string>
+   </void>
+  </object>
+  <object idref="Genres3"/>
+ </void>
+</void>
+<void class="movierental_netbeans.Movie" method="getField">
+ <string>genre</string>
+ <void method="set">
+  <object class="movierental_netbeans.Movie" id="Movie7">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>rentalDate</string>
+    <void method="set">
+     <object idref="Movie7"/>
+     <null/>
+    </void>
+   </void>
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>returnDate</string>
+    <void method="set">
+     <object idref="Movie7"/>
+     <null/>
+    </void>
+   </void>
+   <void property="description">
+    <string>Dwunastu przysięgłych ma wydać wyrok w procesie o morderstwo. Jeden z nich ma wątpliwości dotyczące winy oskarżonego.</string>
+   </void>
+   <void property="director">
+    <string>Sidney Lumet</string>
+   </void>
+   <void property="releaseYear">
+    <string>1957</string>
+   </void>
+   <void property="title">
+    <string>Dwunastu gniewnych ludzi</string>
+   </void>
+  </object>
+  <object idref="Genres3"/>
+ </void>
+</void>
+<void class="movierental_netbeans.Movie" method="getField">
+ <string>genre</string>
+ <void method="set">
+  <object class="movierental_netbeans.Movie" id="Movie8">
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>rentalDate</string>
+    <void method="set">
+     <object idref="Movie8"/>
+     <null/>
+    </void>
+   </void>
+   <void class="movierental_netbeans.Movie" method="getField">
+    <string>returnDate</string>
+    <void method="set">
+     <object idref="Movie8"/>
+     <null/>
+    </void>
+   </void>
+   <void property="description">
+    <string>Historia życia Forresta, chłopca o niskim ilorazie inteligencji z niedowładem kończyn, który staje się miliarderem i bohaterem wojny w Wietnamie.</string>
+   </void>
+   <void property="director">
+    <string>Robert Zemeckis</string>
+   </void>
+   <void property="releaseYear">
+    <string>1994</string>
+   </void>
+   <void property="title">
+    <string>Forrest Gump</string>
+   </void>
+  </object>
+  <object idref="Genres3"/>
+ </void>
+</void>
+<void class="movierental_netbeans.AvailableMoviesList" id="Field0" method="getField">
+ <string>MovieList</string>
+ <void id="ArrayList0" method="get">
+  <object idref="AvailableMoviesList0"/>
+  <void method="add">
+   <object idref="Movie4"/>
+  </void>
+  <void method="add">
+   <object idref="Movie6"/>
+  </void>
+  <void method="add">
+   <object class="movierental_netbeans.Movie" id="Movie9">
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>genre</string>
+     <void method="set">
+      <object idref="Movie9"/>
+      <object idref="Genres3"/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>rentalDate</string>
+     <void method="set">
+      <object idref="Movie9"/>
+      <null/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>returnDate</string>
+     <void method="set">
+      <object idref="Movie9"/>
+      <null/>
+     </void>
+    </void>
+    <void property="description">
+     <string>Opowieść o nowojorskiej rodzinie mafijnej. Starzejący się Don Corleone pragnie przekazać władzę swojemu synowi.</string>
+    </void>
+    <void property="director">
+     <string>Francis Ford Coppola</string>
+    </void>
+    <void property="releaseYear">
+     <string>1972</string>
+    </void>
+    <void property="title">
+     <string>Ojciec chrzestny</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Movie7"/>
+  </void>
+  <void method="add">
+   <object idref="Movie8"/>
+  </void>
+  <void method="add">
+   <object idref="Movie3"/>
+  </void>
+  <void method="add">
+   <object class="movierental_netbeans.Movie" id="Movie10">
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>genre</string>
+     <void method="set">
+      <object idref="Movie10"/>
+      <object class="java.lang.Enum" method="valueOf">
+       <class>movierental_netbeans.Genres</class>
+       <string>War</string>
+      </object>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>rentalDate</string>
+     <void method="set">
+      <object idref="Movie10"/>
+      <null/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>returnDate</string>
+     <void method="set">
+      <object idref="Movie10"/>
+      <null/>
+     </void>
+    </void>
+    <void property="description">
+     <string>Historia przedsiębiorcy Oskara Schindlera, który podczas II wojny światowej uratował przed pobytem w obozach koncentracyjnych 1100 Żydów.</string>
+    </void>
+    <void property="director">
+     <string>Steven Spielberg</string>
+    </void>
+    <void property="releaseYear">
+     <string>1993</string>
+    </void>
+    <void property="title">
+     <string>Lista Schindlera</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="movierental_netbeans.Movie" id="Movie11">
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>genre</string>
+     <void method="set">
+      <object idref="Movie11"/>
+      <object idref="Genres1"/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>rentalDate</string>
+     <void method="set">
+      <object idref="Movie11"/>
+      <null/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>returnDate</string>
+     <void method="set">
+      <object idref="Movie11"/>
+      <null/>
+     </void>
+    </void>
+    <void property="description">
+     <string>Przemoc i odkupienie w opowieści o dwóch płatnych mordercach pracujących na zlecenie mafii, żonie gangstera, bokserze i parze okradającej ludzi w restauracji.</string>
+    </void>
+    <void property="director">
+     <string>Quentin Tarantino</string>
+    </void>
+    <void property="releaseYear">
+     <string>1994</string>
+    </void>
+    <void property="title">
+     <string>Pulp Fiction</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Movie5"/>
+  </void>
+  <void method="add">
+   <object idref="Movie0"/>
+  </void>
+  <void method="add">
+   <object class="movierental_netbeans.Movie" id="Movie12">
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>genre</string>
+     <void method="set">
+      <object idref="Movie12"/>
+      <object idref="Genres0"/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>rentalDate</string>
+     <void method="set">
+      <object idref="Movie12"/>
+      <null/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>returnDate</string>
+     <void method="set">
+      <object idref="Movie12"/>
+      <null/>
+     </void>
+    </void>
+    <void property="description">
+     <string>Dwóch mężczyzn znudzonych rutyną zakłada klub, w którym co tydzień odbywają się walki na gołe pięści.</string>
+    </void>
+    <void property="director">
+     <string>David Fincher</string>
+    </void>
+    <void property="releaseYear">
+     <string>1999</string>
+    </void>
+    <void property="title">
+     <string>Podziemy krąg</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Movie2"/>
+  </void>
+  <void method="add">
+   <object class="movierental_netbeans.Movie" id="Movie13">
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>genre</string>
+     <void method="set">
+      <object idref="Movie13"/>
+      <object idref="Genres2"/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>rentalDate</string>
+     <void method="set">
+      <object idref="Movie13"/>
+      <null/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>returnDate</string>
+     <void method="set">
+      <object idref="Movie13"/>
+      <null/>
+     </void>
+    </void>
+    <void property="description">
+     <string>Podczas drugiej wojny światowej Władysław Szpilman, znakomity polski pianista, stara się przeżyć w okupowanej Warszawie. </string>
+    </void>
+    <void property="director">
+     <string>Roman Polański</string>
+    </void>
+    <void property="releaseYear">
+     <string>2002</string>
+    </void>
+    <void property="title">
+     <string>Pianista</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Movie1"/>
+  </void>
+  <void method="add">
+   <object class="movierental_netbeans.Movie" id="Movie14">
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>genre</string>
+     <void method="set">
+      <object idref="Movie14"/>
+      <object idref="Genres3"/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>rentalDate</string>
+     <void method="set">
+      <object idref="Movie14"/>
+      <null/>
+     </void>
+    </void>
+    <void class="movierental_netbeans.Movie" method="getField">
+     <string>returnDate</string>
+     <void method="set">
+      <object idref="Movie14"/>
+      <null/>
+     </void>
+    </void>
+    <void property="description">
+     <string>Adaptacja opowiadania Stephena Kinga. Niesłusznie skazany na dożywocie bankier, stara się przetrwać w brutalnym, więziennym świecie.</string>
+    </void>
+    <void property="director">
+     <string>Frank Darabont</string>
+    </void>
+    <void property="releaseYear">
+     <string>1994</string>
+    </void>
+    <void property="title">
+     <string>Skazani na Shawshank</string>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+</java>
